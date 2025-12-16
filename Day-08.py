@@ -63,8 +63,8 @@ print(x)
 
 # using the dir() function 
 
-y = dir(platform)
-print(y)
+# y = dir(platform)
+# print(y)
 print(platform.processor())
 
 
@@ -82,3 +82,74 @@ import datetime
 
 x = datetime.datetime.now()
 print(x)
+
+# return the year and name of weekday
+
+
+print(x.year)
+print(x.month)
+print(x.day)
+
+# creating date objects 
+
+xy = datetime.datetime(2020,5,17)
+print(xy)
+
+# the strftime() method
+
+print(xy.strftime("%B"))
+print(xy.strftime("%A"))
+print(xy.strftime("%C"))
+
+# python math 
+# Python has a set of built-in math functions, including an extensive math module, that allows you to perform mathematical tasks on numbers.
+
+minify = min(10,20,33,0.3, 1)
+print(minify)
+
+list = [10,1,230,405,60,30,503]
+
+# print(min(list))
+
+def find_min_value(arg):
+    minimum_value = float('inf')
+    if len(arg) == 0:
+        return 0
+    else:
+        for current_value in arg:
+            if current_value< minimum_value:
+                minimum_value = current_value
+        return minimum_value
+    
+print("minimum value is :", find_min_value(list))
+
+print(max(list))
+
+# abs() : The abs() function returns the absolute (positive) value of the specified number:
+
+mera_value = abs(-108.23)
+print(mera_value)
+
+# pow(x,y) - Return the value of 4 to the power of 3 (same as 4 * 4 * 4):
+
+mera_dursra_value = pow(4,3)
+print(mera_dursra_value)
+
+# the math module 
+
+import math
+
+x = math.sqrt(81) # 9*9 = 81
+print(x)
+
+# math.ceil()
+
+xx = math.ceil(1.4) # 2
+yy = math.floor(1.6) # 1
+
+print(xx); print(yy)
+
+# math.pi() pi(3.14...)
+
+yyy = math.pi
+print(yyy)
