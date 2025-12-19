@@ -82,3 +82,11 @@ import datetime
 
 x = datetime.datetime.now()
 print(x)
+
+
+print("string".isidentifier())
+print("2".isidentifier())
+
+
+bb = None
+
