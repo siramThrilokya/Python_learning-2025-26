@@ -63,8 +63,8 @@ print(x)
 
 # using the dir() function 
 
-y = dir(platform)
-print(y)
+# y = dir(platform)
+# print(y)
 print(platform.processor())
 
 
@@ -82,11 +82,3 @@ import datetime
 
 x = datetime.datetime.now()
 print(x)
-
-
-print("string".isidentifier())
-print("2".isidentifier())
-
-
-bb = None
-
