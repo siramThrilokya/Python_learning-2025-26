@@ -1,4 +1,4 @@
-Listly = [1,2.3,1+2j,"hello", "world", True, None, 34, 54,2.234]
+Listly = [1,2.3,1+2j,"hello", "world", True, None, 34, 54,2.234, 13,2.0, "gowtham"]
 
 
 integer = 10
@@ -21,6 +21,9 @@ def collection(myList):
     return numbers,strings,others
 
 numbers,strings,others = collection(Listly)
-print(numbers,strings,others)
+# print(numbers,strings,others)
+print("Numbers are : ", numbers)
+print("Strings are : ", strings)
+print("Others are : ", others)
 
 # print(Listly)
