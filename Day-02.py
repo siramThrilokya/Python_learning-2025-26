@@ -37,7 +37,7 @@ print(ex.upper())
 ex1 = 'HELLO WORLD'
 print(ex1.lower())
 # strip
-ex2 = " hello world! "
+ex2 = "    hello world!   "
 print(ex2.strip()) #removes spaces from front and end
 # replace
 print(ex.replace("hello", "bye"))
