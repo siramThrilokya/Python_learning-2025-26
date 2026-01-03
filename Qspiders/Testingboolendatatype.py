@@ -39,3 +39,24 @@
 a = "Abc"
 b = str("sjdfl")
 c = None
+
+
+mylist = [1,2,33,4,5]
+mylist.append(23)
+mylist.pop()
+
+
+mylist.extend([1,2,3,4,5,6,7])
+mylist.extend("apple")
+
+print(mylist[-1])
+print(mylist)
+
+mylist.insert(1, 100)
+
+print(mylist)
+
+mysecondlist = [1,2,4,5,6, ["a", "b", "c"]]
+print(mysecondlist[-1])
+
+# print(mysecondlist.reverse())
