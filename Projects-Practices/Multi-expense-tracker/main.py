@@ -10,16 +10,14 @@ while True:
     userChoice = str(input("Enter your choice: "))
     # while True:
     if userChoice.lower() == "add":
-        userInput = str(input("Enter your Expense, press 'exit' to stop: "))
-        if userInput.lower() == 'exit':
-            break
+        while True:
+            userInput = float(input("Enter your Expense, press '00' to stop: "))
+            if userInput == 00:
+                break
+            expenses_list.append(userInput)
             # continue
     elif userChoice.lower() == "show":
-        if expenses_list[-1] == 'exit':
-            expenses_list.pop()
             print("your expenses are : ", expenses_list)
-        else:
-            print("Your expenses are : ", expenses_list)
         # break
     else:
         print("App as been exited")
