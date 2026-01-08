@@ -2,4 +2,4 @@
 def greeting(name):
     print(f"Hello {name}")
     
-greeting("Prashant kumar sinha")
+greeting("Prashant kumar sinha") 
