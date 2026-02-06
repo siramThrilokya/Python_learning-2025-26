@@ -3,9 +3,6 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password=""
+    password="",
+    database="pythonDatabase"
 )
-
-mycursor = mydb.cursor()
-
-mycursor.execute("CREATE DATABASE pythonDatabase")
