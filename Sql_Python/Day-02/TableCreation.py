@@ -9,12 +9,12 @@ mydb = mysql.connector.connect(
 
 mycusor = mydb.cursor()
 
-# mycusor.execute("CREATE TABLE Customers (name varchar(25), address varchar(255))")
+mycusor.execute("CREATE TABLE Customers (name varchar(25), address varchar(255))")
 
 
 # if table is existes 
 
-mycusor.execute("SHOW TABLES")
+# mycusor.execute("SHOW TABLES")
 
 for x in mycusor:
     print(x)
