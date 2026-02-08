@@ -1,4 +1,9 @@
-userInput = eval(input("Enter your value to know the Datatype: "))
+userInput = input("Enter your value to know the Datatype: ")
+
+try:
+    value = eval(userInput)
+except:
+    value = userInput
 
 noPrimitive = [str,list,tuple,set,dict]
 Mutable = [list,set,dict]
