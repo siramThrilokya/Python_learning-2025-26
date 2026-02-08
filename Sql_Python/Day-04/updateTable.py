@@ -14,9 +14,9 @@ mycursor = mydb.cursor()
 # prevent from sql injection 
 
 sql= "UPDATE Customers SET address = %s WHERE address= %s"
-val = ("shamshabad","valley 345")
+val = ("valley 345","shamshabad",)
 
-mycursor.execute(sql)
+mycursor.execute(sql,val)
 
 mydb.commit()
 
