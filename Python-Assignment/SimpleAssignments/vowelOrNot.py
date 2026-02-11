@@ -1,0 +1,1 @@
+print("Vowel" if input("Enter a character: ").lower() in "aeiou" else "Not Vowel")
